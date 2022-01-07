@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    /* Box-sizing: https://www.w3schools.com/css/css3_box-sizing.asp */
+}
+/* Your Styling Here */
+h1{
+    text-align: center;
+}
+#gameboard,.ui-wrapper{
+    display: flex;
+    margin: auto;
+    flex-wrap:wrap;
+    /* flex-wrap will force additional cells to a new line after any squares on the first row exceed 450px */
+    width: 450px;
+    /* the width of the gameboard */
+    justify-content: center;
+}
+.cell {
+    width: 30%;
+    height: 125px;
+    margin: 5px;
+    border: 1px solid red;
+}
+.ui-wrapper button {
+    margin: 10px 5px;
+}
